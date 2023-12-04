@@ -1,0 +1,70 @@
+body {
+    font-family: monospace;
+    background-color: aliceblue;
+}
+.input {
+    width: 40.1%;
+    text-align: center;
+    font-size: 30px;
+    background-color: gray;
+    color: white;
+    margin: 20px auto -85px;
+    border: 5px solid black;
+    border-radius: 10px 10px 0 0;
+}
+#display {
+    width: 99.5%;
+    font-size: 44px;
+    text-align: right;
+    padding: 15px 0;
+}
+.numb_grid {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: rgb(201, 201, 201);
+    margin: 80px auto 0;
+    padding: 1px;
+    border-radius: 0 0 10px 10px;
+    border: 5px solid black;
+}
+.numb_grid div {
+    margin: 1px;
+    border-radius: 8px;
+}
+h1 {
+    padding: 35px;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+.numb_grid div h1::selection {
+    background-color: transparent;
+}
+.number1, .number2, .number3, .number4, .number5, .number6, .number7, .number8, .number9, .zero, .dot {
+    background-color: rgb(94, 94, 94);
+}
+.number1:hover, .number2:hover, .number3:hover, .number4:hover, .number5:hover, .number6:hover, .number7:hover, .number8:hover, .number9:hover, .zero:hover, .dot:hover {
+    background-color: rgb(71, 71, 71);
+}
+.number1:active, .number2:active, .number3:active, .number4:active, .number5:active, .number6:active, .number7:active, .number8:active, .number9:active, .zero:active, .dot:active {
+    background-color: rgb(94, 94, 94);
+}
+.addision, .subtract, .multiply, .division, .delete, .clear, .clear_entry, .modules {
+    background-color: rgb(71, 71, 71);
+}
+.addision:hover, .subtract:hover, .multiply:hover, .division:hover, .delete:hover, .clear:hover, .clear_entry:hover, .modules:hover {
+    background-color: rgb(94, 94, 94);
+}
+.addision:active, .subtract:active, .multiply:active, .division:active, .delete:active, .clear:active, .clear_entry:active, .modules:active {
+    background-color: rgb(71, 71, 71);
+}
+.calculate {
+    background-color: rgb(218, 141, 0);
+}
+.calculate:hover {
+    background-color: rgb(199, 129, 0);
+}
+.calculate:active {
+    background-color: rgb(218, 141, 0);
+}
